@@ -5,7 +5,7 @@
   <title>CSS Cheatsheat</title>
   <meta charset="UTF-8" />
   <link rel="stylesheet" href="./assets/reset.css">
-  <link rel="stylesheet" href="./assets/style.css" />
+  <link rel="stylesheet" href="./assets/style.css">
   <title>Corri's Portfolio</title>
 </head>
 
@@ -16,25 +16,57 @@
     
     <nav>
         <ul></ul>
-            <li>Work</li>
-            <li>Links to deployed appplications</li>
-            <li></li>
-            <li>About Me</li> 
+            <li class="header-nav">
+              <a class="header-nav" href="#projects-link"> Projects </a>
+            </li>
+            <li class="header-nav">
+              <a class="header-nav" href="#about-me-link"> About Me </a>
+            </li>
+            <li class="header-nav">
+              <a class="header-nav" href="#contact-me-link"> Contact Me </a>
+            </li> 
 
     </nav>
   </header>
-  
+
   <main>
-    <ul>My Projects</ul>
-        <li></li>
-    <ul>Links</ul>
-        <li></li>
-    <p>About me</p>
+    <div id="about-me-link">
+      <p> My name is Corri Naglie. I've lived in New Hampshire all my life, have a loving wife, and a 2 yoear old son.
+        I currently work in the automotive industry as a lube tech with a little over two years experience. In that field I have worked on replacing tires, inventory management, detailing vehicles, recieving for parts, as well as a shuttle driver.
+        Before that I worked 5 years as a technician and a collector for an amusement company servicing arcade games, electronic dart boards, pooltables, and jukeboxes. 
+        In that field I was responsible for diagnostics, reparing, moving, and collecting of more than 100 seperate machines at various locations all over the northeast.</p>
+        <aside><img src="./assets/images/IMG_0682.jpg" alt="Image of Corri Naglie"></aside>
+    </div>
+    <ul class="sections" id="projects-link">My Projects</ul>
+    <div>
+      <li>
+        <a href="https://irroc.github.io/Prework-Study-Guide/">
+          <img src="./assets/images/screencapture-irroc-github-io-Prework-Study-Guide-2023-10-14-16_34_37.png" alt="An Image displaying my Prework Study Guide.">
+        </a>
+      </li>
+      <li>
+        <a href="https://irroc.github.io/horizon-marketing-agency/">
+          <img src="./assets/images/screenshot.png" alt="Horizon Marketing Agency webpage screenshot.">
+        </a>
+      </li>
+      <li>
+        <a>
+          <img src="./assets/images/MORE-COMING-SOON.png" alt="More projects coming soon.">
+        </a>
+      </li>
+    </div>
+    
   </main>
 
   
   <footer>
-   
+    <p class="sections" id="contact-me-link">Contact Me</p>
+    <ul>
+      <li>Email: csnaglie@hotmail.com</li>
+      <li>Phone: (603)-268-5060</li>
+      <li><a href="https://github.com/Irroc">Link to GitHub</a></li>
+    </ul>
+
   </footer>
 
 </body>
